@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+/* eslint-disable */
+import React from 'react';
+// import Home from './components/HomeComponent';
+import Quiz from './components/QuizComponent';
+import Result from './components/ResultComponent';
 import './App.css';
+import './Component.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Home /> */}
+      {/* <Quiz /> */}
+      <Result />
     </div>
   );
 }
