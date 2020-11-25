@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+h1{
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    background-color: #130f40;
+    
+}
+.playbtn{
+    margin-top: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #2ecc71;
+    padding: 15px 32px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+/* Quiz Component */
+.maincontainer{
+    height: 100vh;
+    
+    background-color: #130f40;
+}
+.quizcontainer{
+    background-color: white;
+    height: 400px;
+    width: 900px;
+    
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 250px;
+    
+    border: 1px solid black;
+    border-left: 3px solid blue;
+}
+.heading{
+    color: black;
+    text-align: center;
+}
+.question{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opt{
+    width: 400px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    border-radius: 20px;
+    background-color:lightskyblue;
+    
+    /* padding:10px 150px 10px 150px; */
+}
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+.btnstyle{
+    padding: 10px 20px 10px 20px;
+}
+.previous{
+    background-color:  blue;
+}
+.next{
+    background-color:  darkgreen;
+}
+.quit{
+    background-color: red;
+}
+
+.resultquestions{
+    display: flex;
+    padding-left:10px ;
+    padding-right:10px ;
+    justify-content: space-between;
+    
+}
+.resultcontainer{
+    background-color: white;
+    height: 400px;
+    width: 900px;
+    
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 250px;
+    
+    border: 1px solid black;
+    border-left: 3px solid blue;
+}
+.resultheading{
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+.question{
+    color: blue;
+    font-size: 4.5rem;
+    margin-bottom: 80px;
+}
+
